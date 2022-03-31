@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <head>
+        <title>Menú Principal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="CSS/menu.css" media="screen" />
+    </head>
+    <body>
+        <h:form>
+            <h1>Menú Principal</h1>
+            <div id="lista">
+                <ul>
+                    <li>Técnico
+                        <ul>
+                            <li><h:commandButton value="Registro de Activos" class="boton" ></h:commandButton></li>
+                            <li><h:commandButton value="Aprobación de prestamos de activos" class="boton" ></h:commandButton></li>
+                            <li><h:commandButton value="Aprobación de traslados de activos" class="boton" ></h:commandButton></li> 
+                        </ul>
+                    </li>
+                    <li>Funcionario
+                        <ul>
+                            <li><h:commandButton value="Solicitar el préstamo de un activo" class="boton" ></h:commandButton></li>  
+                            <li><h:commandButton value="Solicitar el traslado de un activo" class="boton" ></h:commandButton></li>
+                            <li><h:commandButton value="Revisar los activos que posee asignados" class="boton" ></h:commandButton></li>
+                        </ul>
+
+                    </li>
+                    <li>Administrativo
+                        <ul>
+                            <li><h:commandButton value="Reporte resumen por rango de fechas de activos prestados, trasladados y asignados" class="boton" ></h:commandButton></li>
+                            <li><h:commandButton value="Reporte de cantidad de solicitudes por estado para préstamo y traslado de activos" class="boton" ></h:commandButton></li>   
+                            <li><h:commandButton value="Mantenimiento de Funcionarios por rol" class="boton" ></h:commandButton></li>
+                            <li><h:commandButton value="Aprobación o rechazo de solicitudes de funcionarios nuevos" class="boton" ></h:commandButton></li> 
+                        </ul>
+
+                    </li>
+
+                </ul>
+            </div>
+        </h:form>
+    </body>
+</html>

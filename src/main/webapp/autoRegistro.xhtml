@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <head>
+        <title>Auto Registro</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="CSS/autoRegistro.css" media="screen" />
+    </head>
+    <body>
+        <h:form>
+            <h1>Registrarse</h1>
+            <h:outputLabel value="Tipo de Identiicación: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <h:outputLabel value="Identificación: " ></h:outputLabel>
+            <h:inputText value="" ></h:inputText>
+            <br></br>
+            <h:outputLabel value="Nombre: " ></h:outputLabel>
+            <h:inputText value="" ></h:inputText>
+            <h:outputLabel value="Primer Apellido: " ></h:outputLabel>
+            <h:inputText value="" ></h:inputText>
+            <h:outputLabel value="Segundo Apellido: " ></h:outputLabel>
+            <h:inputText value="" ></h:inputText>
+            <br></br>
+            <h:outputLabel value="Fecha de Nacimiento: " ></h:outputLabel>
+            <h:inputText value="" ></h:inputText>
+            <br></br>
+            <h:outputLabel value="Dirección: " ></h:outputLabel>
+            <br></br>
+            <br></br>
+            <h:outputLabel value="Provincia: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <h:outputLabel value="Cantón: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <h:outputLabel value="Distrito: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <h:outputLabel value="Barrio: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <br></br>
+            <br></br>
+            <h:outputLabel value="Tipo Teléfono: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <h:outputLabel value="Número de teléfono: " ></h:outputLabel>
+            <h:inputText value="" ></h:inputText>
+            <br></br>
+            <h:outputLabel value="Correo electrónico: " ></h:outputLabel>
+            <h:inputText value="" ></h:inputText>
+            <h:outputLabel value="Sede: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <h:outputLabel value="Perfil de usuario: "></h:outputLabel>
+            <h:selectOneMenu onchange="submit()" value="">
+                <f:selectItems ></f:selectItems>
+            </h:selectOneMenu>
+            <br></br>
+            <br></br>
+            <h:commandButton value="Registrarse" class="boton" ></h:commandButton>
+            <h:commandButton value="Cancelar" class="boton"></h:commandButton>
+            <h:commandButton value="Salir" class="boton"></h:commandButton>
+        </h:form>
+    </body>
+</html>
